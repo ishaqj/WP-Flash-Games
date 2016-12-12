@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== WP Flash Games ===
 Contributors: Ishaq Jound
 Tags: Flash games, online games
 Requires at least: 3.0.1
