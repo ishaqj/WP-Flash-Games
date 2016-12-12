@@ -18,7 +18,6 @@
 
 		// set Games Genre active in wp_menu (admin panel)
 		var gamesGenreEditPath = window.document.documentURI.split('edit-tags.php?');
-		console.log(gamesGenreEditPath.length);
 		var gamesGenreTaxPath = 'taxonomy=gmd_genre&post_type=wpfg_games';
 
 		if(gamesGenreEditPath[1] == gamesGenreTaxPath) {
