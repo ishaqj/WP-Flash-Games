@@ -1,0 +1,131 @@
+#game {
+    max-width: 100%;
+}
+#game .entry-header {
+
+    border: 1px solid #e8e8e8;
+    padding: 15px;
+}
+
+#game .entry-header img {
+
+    width: 100px;
+    height: 100px;
+}
+
+#game .entry-content {
+    border: 1px solid #e8e8e8;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.entry-content .playgame {
+    margin: 15px;
+}
+
+#gamesListContainer {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+}
+
+.game-item {
+    padding: 15px;
+    flex: 0 0 10%;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    box-sizing:border-box;
+    transition: 0.2s;
+    border:1px solid #dbe3e7;
+    box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.08);
+
+}
+
+.game-item .title {
+    color: #289dcc;
+
+
+}
+.game-item  a {
+    text-decoration: none;
+
+}
+
+#gamesListContainer .title h3 {
+    border-bottom: 1px solid #e8e8e8;
+
+}
+
+#gamesListContainer .desc {
+    padding-top: 5px;
+
+}
+
+#gamesListContainer .img {
+    width: 208px;
+    height: 140px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #e8e8e8;
+    margin-top: 5px;
+
+}
+
+#gamesListContainer img {
+    width: 200px;
+    height: 133px;
+    position: relative;
+    left: 4px;
+    right: 4px;
+    top: 4px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#gamesListContainer .genre {
+    display: inline-block;
+    position: relative;
+    right: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 12px;
+    color: white;
+    background-color: #289DCC;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#gamesListContainer .genre a {
+    color: #fff;
+}
+
+#gamesListContainer .release_date {
+
+    font-size: 12px;
+
+}
+
+.pagination {
+    margin: 15px 0;
+}
+.pagination span {
+    padding: 2px 5px;
+    border: 1px solid #EAEAEA;
+    background-color: #289dcc;
+    color: #FFFFFF;
+}
+.pagination a span {
+    background-color: #FFFFFF;
+    color: #777777;
+}
+.pagination a span:hover {
+    color: #289dcc;
+    border-color: #289dcc;
+    text-decoration: none;
+}
